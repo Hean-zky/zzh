@@ -87,7 +87,15 @@ SolidWorks 2026 版本的装配体和零件源文件请前往：[AIChongZhi/mltw
 
 ## 许可证
 
-当前仓库尚未声明开源许可证。除非获得作者明确授权，否则请不要将其中的模型文件用于商业生产、再发布或衍生项目。
+本仓库中的 STEP 文件和展示图片采用 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International（CC BY-NC-SA 4.0）](LICENSE) 许可。
+
+在遵守许可证条款的前提下，你可以分享和修改这些文件，但需要：
+
+- 保留作者署名并注明许可证链接；
+- 不得将本仓库内容用于商业用途；
+- 发布修改后的模型或图片时，继续采用相同许可证。
+
+本许可证仅适用于本仓库中的 STEP 文件和 PNG 图片，不包含 [AIChongZhi/mltwq](https://github.com/AIChongZhi/mltwq) 中的 SolidWorks 源文件；源文件的授权范围需另行确认。
 
 ## 作者
 

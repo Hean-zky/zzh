@@ -4,55 +4,77 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Lirael 的个人主页：中国科学院大学流体力学专业在读博士，记录学习、项目与探索。">
-  <title>Lirael / 个人主页</title>
+  <title>Lirael's database</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <nav class="nav shell" aria-label="主导航">
-      <a class="wordmark" href="#top"><span>LI</span> LIRAEL / HOME</a>
-      <div class="nav-links"><a href="#about">关于我</a><a href="#projects">项目经历</a><a href="#contact">交流</a></div>
-      <button class="theme-toggle" type="button" aria-label="切换主题"><span aria-hidden="true">◐</span><span class="theme-label">夜间</span></button>
+    <nav class="shell nav" aria-label="主导航">
+      <a class="logo" href="#top" aria-label="Lirael's database"><span class="logo-terminal"><b>lirael@lab</b><i>:~$</i><em></em></span></a>
+      <div class="nav-actions">
+        <div class="nav-links"><a href="#projects">项目经历</a><a href="#documents">项目资料</a><a href="#timeline">时间线</a><a href="#skills">能力</a></div>
+        <div class="nav-controls"><button class="theme-toggle" type="button" aria-label="切换主题"><span aria-hidden="true">☼</span></button></div>
+      </div>
     </nav>
   </header>
 
   <main id="top">
-    <section class="hero shell" id="about">
-      <div class="hero-copy">
-        <div class="profile-line"><img class="avatar" src="头像.jpg" alt="Lirael 的头像"><span>PERSONAL PAGE / 2026</span></div>
-        <p class="eyebrow"><span class="status-dot"></span> CURRENTLY LEARNING / CURRENTLY EXPLORING</p>
-        <h1>欢迎来和<br><em>Lirael</em> 交朋友。</h1>
-        <p class="intro">中国科学院大学流体力学专业在读博士，还在努力学习中。这里记录我的项目经历、实验想法，以及那些正在慢慢变成现实的东西。</p>
-        <div class="hero-actions"><a class="button button-primary" href="#projects">看看项目 <span aria-hidden="true">↘</span></a><a class="text-link" href="mailto:13371578767@163.com">13371578767@163.com ↗</a></div>
-        <dl class="facts"><div><dt>身份</dt><dd>流体力学专业在读博士</dd></div><div><dt>所在</dt><dd>中国科学院大学</dd></div><div><dt>状态</dt><dd><span class="online-dot">●</span> 还在努力学习中</dd></div></dl>
-      </div>
-      <div class="hero-visual"><div class="portrait-frame"><img src="实物展示/全景正面.jpg" alt="猫粮投喂器实物正面照片"><span>PROJECT / CAT FEEDER</span></div><p class="visual-note">学习流体，也做一点会动的东西。</p></div>
+    <section class="intro shell" id="about">
+      <div class="avatar-container"><img class="avatar" src="头像.jpg" alt="Lirael 的头像"><div class="avatar-glow"></div></div>
+      <h1>欢迎来和 Lirael 交朋友</h1>
+      <p class="subtitle">中国科学院大学流体力学专业在读博士，还在努力学习中。</p>
+      <div class="intro-links" aria-label="联系方式"><a href="mailto:13371578767@163.com"><span>邮箱</span><b>↗</b></a><a href="https://github.com/Hean-zky" target="_blank" rel="noreferrer"><span>GitHub</span><b>↗</b></a><a href="#projects"><span>项目经历</span><b>↓</b></a></div>
     </section>
 
     <section class="section shell" id="projects">
-      <div class="section-heading"><div><p class="eyebrow">01 / PROJECTS</p><h2>项目经历</h2></div><p class="section-intro">一个已经完成实物装配的智能猫粮投喂器项目，以及一个正在努力开发中的下一站。</p></div>
-      <div class="project-grid">
-        <button class="project-card project-main" id="open-project" type="button">
-          <div class="project-image"><img src="实物展示/全景侧面.jpg" alt="猫粮投喂器实物侧面展示"><span class="project-number">01</span></div>
-          <div class="project-content"><div class="project-meta"><span>MECHANICAL / SMART HARDWARE</span><span>已完成装配 ↗</span></div><h3>猫粮投喂器</h3><p>从 SolidWorks 2026 模型到实物样机，完成储粮、传动、拨粮、接粮和摄像头观察模块的整合。</p><span class="card-action">点击查看详细介绍 <b>→</b></span></div>
-        </button>
-        <article class="project-card project-next"><div class="next-mark">02</div><div class="project-content"><span class="project-state">IN PROGRESS</span><h3>正在努力开发中</h3><p>新的想法还在整理、试错和学习中。下一次更新，希望能带来更完整的实验记录。</p><span class="progress-line"><i></i></span><small>持续学习 / 持续开发</small></div></article>
+      <h2>项目经历</h2>
+      <div class="project-list">
+        <article class="card project-card">
+          <div class="project-thumbnail-wrapper"><img class="project-thumbnail" src="实物展示/全景正面.jpg" alt="猫粮投喂器实物正面展示" loading="lazy"></div>
+          <div class="project-info"><div class="project-label">MECHANICAL / SMART HARDWARE</div><h3>猫粮投喂器</h3><p>从 SolidWorks 2026 模型到实物样机，完成储粮、两级带轮传动、蜗杆齿轮下料、接粮和摄像头观察模块的整合。</p><div class="project-tags"><span>机械结构</span><span>实物样机</span><span>SolidWorks</span><span>STEP</span></div><div class="project-actions"><button class="project-action" id="open-project" type="button">详细介绍 <span>→</span></button><a class="project-action" href="第一版-最终版本-step/装配.STEP" download>下载 STEP <span>↗</span></a></div></div>
+        </article>
+        <article class="card project-card project-card--text-only">
+          <div class="project-info"><div class="project-label muted-label">IN PROGRESS</div><h3>正在努力开发中</h3><p>新的想法还在整理、试错和学习中。项目会在形成更清晰的方向后继续更新。</p><div class="project-tags"><span>学习中</span><span>开发中</span><span>未完待续</span></div></div>
+        </article>
       </div>
     </section>
 
-    <section class="story-band">
-      <div class="shell story-layout"><div><p class="eyebrow">02 / A SMALL NOTE</p><h2>慢一点，<br><em>把事情做好。</em></h2></div><div class="story-copy"><p>博士阶段的学习常常需要耐心。除了流体力学，我也喜欢把机械结构、图像观察和实际使用场景放在一起思考。这个主页会跟着项目一起成长。</p><div class="quote-mark">“</div></div></div>
+    <section class="section shell" id="documents">
+      <h2>项目资料</h2>
+      <div class="documents-grid">
+        <article class="card document-card"><div class="document-index">01</div><div><h3>STEP 模型</h3><p>总装与零件的通用三维交换格式文件，适合在其他 CAD 软件中查看或导入。</p><a class="document-link" href="第一版-最终版本-step/装配.STEP" download>打开装配.STEP ↗</a></div></article>
+        <article class="card document-card"><div class="document-index">02</div><div><h3>SolidWorks 源文件</h3><p>参数化模型源文件位于独立仓库，使用 SolidWorks 2026 版本保存。</p><a class="document-link" href="https://github.com/AIChongZhi/mltwq" target="_blank" rel="noreferrer">前往源文件仓库 ↗</a></div></article>
+        <article class="card document-card"><div class="document-index">03</div><div><h3>实物与结构照片</h3><p>记录样机外观、传动机构、喂食部件和拆分状态的照片。</p><a class="document-link" href="#projects">查看项目经历 ↗</a></div></article>
+      </div>
     </section>
 
-    <section class="section shell contact-section" id="contact"><div class="contact-box"><div><p class="eyebrow">03 / SAY HELLO</p><h2>欢迎交流，<br>也欢迎指导。</h2></div><div class="contact-copy"><p>如果你对这个项目、机械结构、流体力学，或者正在开发中的想法感兴趣，欢迎联系我。欢迎各位老师、同学和朋友提出建议、交流学习。</p><a class="button button-primary" href="mailto:13371578767@163.com">给 Lirael 发邮件 ↗</a></div></div></section>
+    <section class="section shell" id="timeline">
+      <h2>时间线</h2>
+      <div class="timeline">
+        <article class="timeline-item"><span class="timeline-dot"></span><time>现在</time><div><h3>中国科学院大学 / 流体力学</h3><p>在读博士，继续学习、研究，也继续尝试把想法做成真实的东西。</p></div></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><time>2026</time><div><h3>猫粮投喂器</h3><p>完成模型整理、实物装配和项目资料归档，建立个人主页展示项目过程。</p></div></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><time>下一步</time><div><h3>正在努力开发中</h3><p>保持学习和开发，等下一个项目准备好再和大家见面。</p></div></article>
+      </div>
+    </section>
+
+    <section class="section shell" id="skills">
+      <h2>能力与兴趣</h2>
+      <div class="skills-wrapper">
+        <div class="skill-category"><h3>研究方向</h3><div class="skill-list"><span>流体力学</span><span>实验观察</span><span>问题分析</span></div></div>
+        <div class="skill-category"><h3>项目实践</h3><div class="skill-list"><span>机械结构</span><span>三维建模</span><span>实物装配</span><span>项目记录</span></div></div>
+        <div class="skill-category"><h3>工具</h3><div class="skill-list"><span>SolidWorks 2026</span><span>STEP</span><span>GitHub</span><span>GitHub Pages</span></div></div>
+      </div>
+    </section>
+
+    <section class="contact section shell" id="contact"><div class="contact-inner"><div><h2>欢迎交流</h2><p>如果你对流体力学、机械结构或这个投喂器项目感兴趣，欢迎来找我聊天。也欢迎各位老师、同学和朋友提出建议、指导交流。</p></div><a class="contact-button" href="mailto:13371578767@163.com">13371578767@163.com ↗</a></div></section>
   </main>
 
-  <footer class="footer shell"><span>© <span id="year"></span> LIRAEL</span><span>中国科学院大学 / 流体力学</span><a href="#top">回到顶部 ↑</a></footer>
+  <footer class="shell footer"><span>© <span id="year"></span> Lirael</span><span>个人主页 / 项目档案</span><a href="#top">回到顶部 ↑</a></footer>
 
   <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
     <button class="dialog-close" type="button" aria-label="关闭项目介绍">×</button>
-    <div class="dialog-reel"><img id="reel-image" src="实物展示/全景正面.jpg" alt="猫粮投喂器实物展示"><div class="reel-overlay"><span>REAL OBJECT REEL</span><span id="reel-counter">01 / 08</span></div><div class="reel-progress"><i id="reel-progress-bar"></i></div></div>
-    <div class="dialog-content"><p class="eyebrow">PROJECT 01 / DETAIL</p><h2 id="dialog-title">猫粮投喂器</h2><p class="dialog-lede">这是一个把定时投喂、机械下料和猫咪活动观察组合在一起的家用设备项目。</p><div class="detail-grid"><div><h3>投喂过程</h3><p>到达设置的喂食时间后，系统发出约 5 秒电信号，电机带动一级带轮和二级带轮，将动力传递至 1 头蜗杆。蜗杆带动齿轮转过设定角度，齿轮、拨片和拨粮器同步转动，使猫粮进入粮道并滑入喂食碗。</p></div><div><h3>观察功能</h3><p>猫粮盒盖上的摄像头支持约 355° 水平旋转和最高 150° 上下旋转，可以识别猫咪活动、自动捕捉行为，并按间隔截取图片上传至用户端。</p></div></div><div class="dialog-links"><a href="第一版-最终版本-step/装配.STEP" download>下载 STEP 总装 ↗</a><a href="https://github.com/AIChongZhi/mltwq" target="_blank" rel="noreferrer">查看 SolidWorks 源文件 ↗</a></div></div>
+    <div class="reel"><img id="reel-image" src="实物展示/全景正面.jpg" alt="猫粮投喂器实物照片"><div class="reel-bar"><span>实物照片展播</span><span id="reel-counter">01 / 08</span></div><div class="progress"><i id="reel-progress-bar"></i></div></div>
+    <div class="dialog-content"><p class="dialog-kicker">PROJECT / CAT FEEDER</p><h2 id="dialog-title">猫粮投喂器</h2><p>这是一个把定时投喂、机械下料和猫咪活动观察组合在一起的家用设备项目。</p><div class="detail-grid"><div><h3>自动投喂</h3><p>到达设置的喂食时间后，发出约 5 秒电信号，电机依次带动一级带轮、二级带轮和 1 头蜗杆，齿轮与拨片、拨粮器同步转动，让猫粮沿粮道滑入喂食碗。</p></div><div><h3>摄像头观察</h3><p>摄像头支持约 355° 水平旋转和最高 150° 上下旋转，可识别猫咪活动、自动捕捉行为，并按间隔截取图片上传至用户端。</p></div></div><div class="dialog-actions"><a href="第一版-最终版本-step/装配.STEP" download>下载 STEP 总装 ↗</a><a href="https://github.com/AIChongZhi/mltwq" target="_blank" rel="noreferrer">查看 SolidWorks 源文件 ↗</a></div></div>
   </dialog>
   <script src="script.js"></script>
 </body>

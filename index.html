@@ -3,114 +3,57 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Hean-zky 的猫粮投喂器个人项目档案：结构设计、实物样机、STEP 模型与工作原理。">
-  <meta name="theme-color" content="#f4f2ed">
-  <title>Hean-zky / 猫粮投喂器项目档案</title>
+  <meta name="description" content="Lirael 的个人主页：中国科学院大学流体力学专业在读博士，记录学习、项目与探索。">
+  <title>Lirael / 个人主页</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <nav class="nav shell" aria-label="主导航">
-      <a class="wordmark" href="#top" aria-label="返回首页"><span>HZ</span> / PROJECT INDEX</a>
-      <div class="nav-links">
-        <a href="#project">项目</a>
-        <a href="#mechanism">原理</a>
-        <a href="#archive">档案</a>
-        <a href="#about">关于</a>
-      </div>
-      <button class="theme-toggle" type="button" aria-label="切换主题" title="切换主题"><span aria-hidden="true">◐</span><span class="theme-label">夜间</span></button>
+      <a class="wordmark" href="#top"><span>LI</span> LIRAEL / HOME</a>
+      <div class="nav-links"><a href="#about">关于我</a><a href="#projects">项目经历</a><a href="#contact">交流</a></div>
+      <button class="theme-toggle" type="button" aria-label="切换主题"><span aria-hidden="true">◐</span><span class="theme-label">夜间</span></button>
     </nav>
   </header>
 
   <main id="top">
-    <section class="hero shell" aria-labelledby="hero-title">
+    <section class="hero shell" id="about">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> PERSONAL PROJECT ARCHIVE / 2026</p>
-        <h1 id="hero-title">让投喂、观察<br><em>成为一个系统。</em></h1>
-        <p class="hero-lede">我是 Hean-zky。这是一个从 SolidWorks 模型走向实物样机的猫粮投喂器项目档案，记录结构、传动与猫咪观察功能如何被放进同一个桌面设备。</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#project">查看项目 <span aria-hidden="true">↘</span></a>
-          <a class="text-link" href="https://github.com/AIChongZhi/mltwq" target="_blank" rel="noreferrer">SolidWorks 源文件 ↗</a>
-        </div>
-        <dl class="hero-facts">
-          <div><dt>类型</dt><dd>机械 / 智能硬件</dd></div>
-          <div><dt>模型</dt><dd>SolidWorks 2026 + STEP</dd></div>
-          <div><dt>状态</dt><dd><span class="inline-status">●</span> 实物已装配</dd></div>
-        </dl>
+        <div class="profile-line"><img class="avatar" src="头像.jpg" alt="Lirael 的头像"><span>PERSONAL PAGE / 2026</span></div>
+        <p class="eyebrow"><span class="status-dot"></span> CURRENTLY LEARNING / CURRENTLY EXPLORING</p>
+        <h1>欢迎来和<br><em>Lirael</em> 交朋友。</h1>
+        <p class="intro">中国科学院大学流体力学专业在读博士，还在努力学习中。这里记录我的项目经历、实验想法，以及那些正在慢慢变成现实的东西。</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">看看项目 <span aria-hidden="true">↘</span></a><a class="text-link" href="mailto:13371578767@163.com">13371578767@163.com ↗</a></div>
+        <dl class="facts"><div><dt>身份</dt><dd>流体力学专业在读博士</dd></div><div><dt>所在</dt><dd>中国科学院大学</dd></div><div><dt>状态</dt><dd><span class="online-dot">●</span> 还在努力学习中</dd></div></dl>
       </div>
-      <div class="hero-visual">
-        <div class="image-frame image-frame-main">
-          <img src="实物展示/全景正面.jpg" alt="猫粮投喂器实物正面展示" fetchpriority="high">
-          <span class="image-index">01 / 08 · PROTOTYPE</span>
-        </div>
-        <div class="hero-caption"><span>Feeder / prototype</span><span>观察 · 储粮 · 投喂</span></div>
+      <div class="hero-visual"><div class="portrait-frame"><img src="实物展示/全景正面.jpg" alt="猫粮投喂器实物正面照片"><span>PROJECT / CAT FEEDER</span></div><p class="visual-note">学习流体，也做一点会动的东西。</p></div>
+    </section>
+
+    <section class="section shell" id="projects">
+      <div class="section-heading"><div><p class="eyebrow">01 / PROJECTS</p><h2>项目经历</h2></div><p class="section-intro">一个已经完成实物装配的智能猫粮投喂器项目，以及一个正在努力开发中的下一站。</p></div>
+      <div class="project-grid">
+        <button class="project-card project-main" id="open-project" type="button">
+          <div class="project-image"><img src="实物展示/全景侧面.jpg" alt="猫粮投喂器实物侧面展示"><span class="project-number">01</span></div>
+          <div class="project-content"><div class="project-meta"><span>MECHANICAL / SMART HARDWARE</span><span>已完成装配 ↗</span></div><h3>猫粮投喂器</h3><p>从 SolidWorks 2026 模型到实物样机，完成储粮、传动、拨粮、接粮和摄像头观察模块的整合。</p><span class="card-action">点击查看详细介绍 <b>→</b></span></div>
+        </button>
+        <article class="project-card project-next"><div class="next-mark">02</div><div class="project-content"><span class="project-state">IN PROGRESS</span><h3>正在努力开发中</h3><p>新的想法还在整理、试错和学习中。下一次更新，希望能带来更完整的实验记录。</p><span class="progress-line"><i></i></span><small>持续学习 / 持续开发</small></div></article>
       </div>
     </section>
 
-    <section class="section shell" id="project" aria-labelledby="project-title">
-      <div class="section-heading">
-        <div><p class="eyebrow">01 / PROJECT</p><h2 id="project-title">猫粮投喂器</h2></div>
-        <p class="section-intro">一台把定时投喂、机械下料和远程观察放在一起的家用设备。先看它如何存在于真实空间，再回到模型里理解每一个动作。</p>
-      </div>
-      <div class="feature-grid">
-        <article class="feature feature-wide">
-          <div class="feature-image"><img src="实物展示/全景侧面.jpg" alt="猫粮投喂器实物侧面展示" loading="lazy"></div>
-          <div class="feature-body"><span class="feature-tag">01 / REAL OBJECT</span><h3>从模型到样机</h3><p>白色外壳、独立接粮碗和顶部摄像头构成完整产品。实物照片保留了装配后的尺度关系与使用状态。</p><a class="arrow-link" href="#physical">查看实物记录 <span>→</span></a></div>
-        </article>
-        <article class="feature feature-tall">
-          <div class="feature-image"><img src="图片展示/全景展示图.png" alt="猫粮投喂器完整三维模型展示" loading="lazy"></div>
-          <div class="feature-body"><span class="feature-tag">02 / CAD MODEL</span><h3>完整三维模型</h3><p>带摄像头的全景模型，展示储粮盒、送料区域与底部接粮结构。</p><a class="arrow-link" href="#archive">进入档案 <span>→</span></a></div>
-        </article>
-      </div>
+    <section class="story-band">
+      <div class="shell story-layout"><div><p class="eyebrow">02 / A SMALL NOTE</p><h2>慢一点，<br><em>把事情做好。</em></h2></div><div class="story-copy"><p>博士阶段的学习常常需要耐心。除了流体力学，我也喜欢把机械结构、图像观察和实际使用场景放在一起思考。这个主页会跟着项目一起成长。</p><div class="quote-mark">“</div></div></div>
     </section>
 
-    <section class="mechanism-band" id="mechanism" aria-labelledby="mechanism-title">
-      <div class="shell mechanism-layout">
-        <div><p class="eyebrow">02 / MECHANISM</p><h2 id="mechanism-title">一次投喂，<br><em>五个动作。</em></h2><p class="mechanism-lede">到达设定时间后，控制系统发出约 5 秒的电信号。电机、带轮、蜗杆与齿轮把电信号变成一次可重复的下料动作。</p></div>
-        <ol class="steps">
-          <li><span>01</span><div><strong>电机启动</strong><p>喂食时间到达，电机获得约 5 秒工作信号。</p></div></li>
-          <li><span>02</span><div><strong>两级带轮传动</strong><p>一级带轮与二级带轮依次传递动力。</p></div></li>
-          <li><span>03</span><div><strong>蜗杆减速</strong><p>1 头蜗杆带动齿轮转过设定角度。</p></div></li>
-          <li><span>04</span><div><strong>拨片联动</strong><p>齿轮、拨片和拨粮器同步转动，推动猫粮进入粮道。</p></div></li>
-          <li><span>05</span><div><strong>完成下料</strong><p>猫粮沿粮道滑入喂食碗，电机停止。</p></div></li>
-        </ol>
-      </div>
-    </section>
-
-    <section class="section shell" id="physical" aria-labelledby="physical-title">
-      <div class="section-heading"><div><p class="eyebrow">03 / FIELD NOTES</p><h2 id="physical-title">实物记录</h2></div><p class="section-intro">拆开外壳，传动件、喂食组件和摄像头分别承担不同的任务。点击图片可以放大查看细节。</p></div>
-      <div class="gallery-grid">
-        <button class="gallery-item gallery-large" type="button" data-image="实物展示/传动展示.jpg" data-caption="传动展示 / 齿轮与电机"><img src="实物展示/传动展示.jpg" alt="投喂器齿轮和电机传动结构" loading="lazy"><span>传动展示</span></button>
-        <button class="gallery-item" type="button" data-image="实物展示/分离展示.jpg" data-caption="分离展示 / 外壳与内部结构"><img src="实物展示/分离展示.jpg" alt="投喂器外壳和内部零件分离展示" loading="lazy"><span>分离展示</span></button>
-        <button class="gallery-item" type="button" data-image="实物展示/喂食部件后面.jpg" data-caption="喂食部件 / 后侧"><img src="实物展示/喂食部件后面.jpg" alt="喂食部件后侧细节" loading="lazy"><span>喂食部件</span></button>
-        <button class="gallery-item" type="button" data-image="实物展示/细节展示.jpg" data-caption="细节展示 / 结构接缝"><img src="实物展示/细节展示.jpg" alt="投喂器结构细节展示" loading="lazy"><span>细节展示</span></button>
-        <button class="gallery-item" type="button" data-image="实物展示/喂食器侧面.jpg" data-caption="喂食器 / 侧面"><img src="实物展示/喂食器侧面.jpg" alt="猫粮投喂器侧面实物" loading="lazy"><span>侧面视图</span></button>
-        <button class="gallery-item" type="button" data-image="实物展示/喂食装置.jpg" data-caption="喂食装置 / 拨粮结构"><img src="实物展示/喂食装置.jpg" alt="投喂器喂食装置细节" loading="lazy"><span>喂食装置</span></button>
-      </div>
-    </section>
-
-    <section class="camera-strip shell" aria-label="摄像头能力">
-      <div class="camera-copy"><p class="eyebrow">OBSERVATION MODULE</p><h2>看见猫咪，<br>也看见它的日常。</h2><p>顶部摄像头支持约 355° 水平旋转与最高 150° 上下转动，可识别猫咪活动、自动捕捉行为，并按间隔截取图片上传至用户端。</p></div>
-      <div class="camera-image"><img src="实物展示/全景正面.jpg" alt="投喂器顶部摄像头" loading="lazy"><span>355° / 150°</span></div>
-    </section>
-
-    <section class="section shell archive-section" id="archive" aria-labelledby="archive-title">
-      <div class="section-heading"><div><p class="eyebrow">04 / ARCHIVE</p><h2 id="archive-title">模型档案</h2></div><p class="section-intro">STEP 文件与图片展示集中在当前仓库；SolidWorks 2026 源文件单独维护，便于区分可编辑模型与通用交换格式。</p></div>
-      <div class="archive-grid">
-        <a class="archive-item" href="第一版-最终版本-step/装配.STEP" download><span class="archive-type">STEP / ASSEMBLY</span><strong>装配.STEP</strong><small>完整总装模型 · 下载</small><span class="archive-arrow">↗</span></a>
-        <a class="archive-item" href="第一版-最终版本-step/拨粮器-3.STEP" download><span class="archive-type">STEP / PART</span><strong>拨粮器-3.STEP</strong><small>拨粮组件 · 下载</small><span class="archive-arrow">↗</span></a>
-        <a class="archive-item" href="https://github.com/AIChongZhi/mltwq" target="_blank" rel="noreferrer"><span class="archive-type">SOLIDWORKS 2026</span><strong>源文件仓库</strong><small>SLDASM / SLDPRT · GitHub</small><span class="archive-arrow">↗</span></a>
-      </div>
-    </section>
-
-    <section class="about-band" id="about" aria-labelledby="about-title">
-      <div class="shell about-layout"><div><p class="eyebrow">05 / ABOUT</p><h2 id="about-title">Hean-zky</h2></div><div class="about-copy"><p>一个持续把想法变成结构、把结构变成实物的人。这个页面是项目的入口，模型、照片和说明会随着设计迭代继续更新。</p><a class="button button-light" href="https://github.com/Hean-zky" target="_blank" rel="noreferrer">访问 GitHub ↗</a></div></div>
-    </section>
+    <section class="section shell contact-section" id="contact"><div class="contact-box"><div><p class="eyebrow">03 / SAY HELLO</p><h2>欢迎交流，<br>也欢迎指导。</h2></div><div class="contact-copy"><p>如果你对这个项目、机械结构、流体力学，或者正在开发中的想法感兴趣，欢迎联系我。欢迎各位老师、同学和朋友提出建议、交流学习。</p><a class="button button-primary" href="mailto:13371578767@163.com">给 Lirael 发邮件 ↗</a></div></div></section>
   </main>
 
-  <footer class="footer shell"><span>© <span id="year"></span> HEAN-ZKY</span><span>猫粮投喂器 / PERSONAL ARCHIVE</span><a href="#top">返回顶部 ↑</a></footer>
+  <footer class="footer shell"><span>© <span id="year"></span> LIRAEL</span><span>中国科学院大学 / 流体力学</span><a href="#top">回到顶部 ↑</a></footer>
 
-  <dialog class="lightbox" id="lightbox"><button class="lightbox-close" type="button" aria-label="关闭图片">×</button><img id="lightbox-image" src="" alt=""><p id="lightbox-caption"></p></dialog>
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="关闭项目介绍">×</button>
+    <div class="dialog-reel"><img id="reel-image" src="实物展示/全景正面.jpg" alt="猫粮投喂器实物展示"><div class="reel-overlay"><span>REAL OBJECT REEL</span><span id="reel-counter">01 / 08</span></div><div class="reel-progress"><i id="reel-progress-bar"></i></div></div>
+    <div class="dialog-content"><p class="eyebrow">PROJECT 01 / DETAIL</p><h2 id="dialog-title">猫粮投喂器</h2><p class="dialog-lede">这是一个把定时投喂、机械下料和猫咪活动观察组合在一起的家用设备项目。</p><div class="detail-grid"><div><h3>投喂过程</h3><p>到达设置的喂食时间后，系统发出约 5 秒电信号，电机带动一级带轮和二级带轮，将动力传递至 1 头蜗杆。蜗杆带动齿轮转过设定角度，齿轮、拨片和拨粮器同步转动，使猫粮进入粮道并滑入喂食碗。</p></div><div><h3>观察功能</h3><p>猫粮盒盖上的摄像头支持约 355° 水平旋转和最高 150° 上下旋转，可以识别猫咪活动、自动捕捉行为，并按间隔截取图片上传至用户端。</p></div></div><div class="dialog-links"><a href="第一版-最终版本-step/装配.STEP" download>下载 STEP 总装 ↗</a><a href="https://github.com/AIChongZhi/mltwq" target="_blank" rel="noreferrer">查看 SolidWorks 源文件 ↗</a></div></div>
+  </dialog>
   <script src="script.js"></script>
 </body>
 </html>

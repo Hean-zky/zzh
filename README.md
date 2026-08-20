@@ -1,6 +1,6 @@
 # Lirael's database
 
-个人主页与项目档案：欢迎来和 Lirael 交朋友。
+你好，我是 Lirael。这是我的个人主页与项目档案。
 
 主页地址：[https://hean-zky.github.io/zzh/](https://hean-zky.github.io/zzh/)
 
